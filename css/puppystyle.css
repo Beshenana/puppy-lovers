@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* bonus: good practice to add this too */
+}
+
+img {
+    display: block;
+    margin: auto; /* removes the gap under images */
+}
+.puppy-2{
+    position: relative;
+    
+}
+
+
+.puppy-3 img, .puppymissing,.puppy-2 img{
+    width:200px ;
+    height: 150px;
+}
+.nearer{
+
+    display: flex;
+}
+.nearer,.ends{
+    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+.ends {
+   
+    display: flex;
+    flex-wrap: wrap;  /* allows items to wrap */
+    align-items: center;
+    gap: 15px;
+}
+
+.ends div:first-child {
+    width: 100%;  /* makes "more puppies" heading take full row */
+}
+
+.puppy-4 img, .puppy-5 img {
+    width: 200px;
+    height: auto;
+}
+.bluebg, .banner{
+    background-color: #085070;
+}
+.puppy-1{
+    margin-bottom: 84px;
+}
+.puppy-1{
+
+    margin-bottom: 84px;
+}
+.puppy-1 img{
+    width: 100%;
+}
+.bluebg{
+    padding-bottom: 24px;
+    padding-top: 27px;
+    color: white;
+    text-align: center;
+}
+.banner{
+    margin-top: 75px;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.puppymissing{
+    background-color: #f04d65;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.puppymissing{
+       font-size: 40px;
+    padding: 8px 50px 45px;
+    text-align: center;
+    background-image: url("../puppyimage/puppy-1.jpg");
+}
+.ends{
+    margin-top: 50px;
+}
+.morepuppy{
+ text-align: center;
+ font-size: 40px;
+margin-bottom: 40px;
+}
+.puppy-2 img,.puppy-3 img{
+    margin-left: 10px;
+}
+.ends {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; /* add this */
+    gap: 15px;
+    margin-top: 50px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nearer {
+    display: flex;
+    justify-content: center; /* add this */
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bluebg {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
